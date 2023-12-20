@@ -87,8 +87,23 @@
             </tbody>
         </table>
 
-        <p class="font-weight-light mt-5"><strong>Caution!</strong> This tool will only work upto 1000 videos. </p>
-        <p class="font-weight-light"><strong>FAWAD IQBAL f84267592</strong></p>
+        <hr />
+
+
+        <ol>
+            <p><strong class="mt-5">Notes!</strong></p>
+            <li><p class="font-weight-light"> This tool will only work upto <strong>1000</strong> videos. </p></li>
+            <li><p class="font-weight-light">Cloudflare transcode videos to <strong>H.264</strong> and the following <strong>Resolutions</strong> and <strong>Bitrates</strong> and may be more.  </p></li> 
+                <ul>
+                    <li>1080p	8 Mbps</li>
+                    <li>720p	4.8 Mbps</li>
+                    <li>480p	2.4 Mbps</li>
+                    <li>360p	1 Mbps</li>
+                </ul> 
+        </ol>
+
+        
+        <p class="font-weight-light text-center"><strong>FAWAD IQBAL f84267592</strong></p>
     </div>
 
     <!-- Include jQuery and Bootstrap JS -->
@@ -202,8 +217,13 @@
             }
             
         } catch (error) {
-            document.getElementById('errormessage').textContent = "There was an error fetching the video info: \n" + error;
+            document.getElementById('errormessage').textContent = "Wrong Credentials | There was an error fetching the video info: \n" + error;
             console.error("There was an error fetching the video sizes: ", error);
+            spinner.style.visibility = 'hidden'; //'hidden'
+            document.getElementById('fetchSize').classList.add('btn-primary'); 
+            document.getElementById('fetchSize').textContent = "GET INFO";
+
+
         }
 
         // This code is written by FAWAD IQBAL f84267582 (fwd82@live.com)
