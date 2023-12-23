@@ -1,240 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Account Information</title>
-    <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Huawei Cloud Icons</title>
+
+    <style>
+
+        /* Shadow */
+        .hvr-shadow {
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow;
+        transition-property: box-shadow;
+        }
+        .hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+        }
+
+    </style>
+
 </head>
 <body>
-    <div class="container mt-5" >
+    <div class="container mt-1">
+        <div class="col-sm-12 text-center text-center">
+            <!-- <img src="https://res-static.hc-cdn.cn/cloudbu-site/intl/en-us/yunying/new-header/logo.png" class="img-responsive" alt="" width="200px"> -->
+            <img src="https://es-media-prod.s3.amazonaws.com/media/supplier/logo/source/Huawei_logo-4.jpg" class="img-responsive" alt="" width="100px">
+        </div>
+        <h3 class="text-center mt-3">TOOLS</h3>
+        <p class="text-center">Collection of tools to make our job easy!!!</p>
+        
+        <hr />
 
-        <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
-            <div class="card-body">
- 
-                
+        <div class="row mt-5">
 
-                <div class="text-center">
-                    <img class="text-center" src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/7bIgGp4hk4SFO0o3SBbOKJ/546b2df59d9ef1ac226d70c40b17d019/Cloudflare-logo-transparent-v-rgb_thumbnail.png" width="200px" alt="">
-                    
-                    <h3 class="text-center">
-                        <div class="spinner-grow" role="status"></div> 
-                        Cloudflare Account Information 
-                        <div class="spinner-grow" role="status"> </div>
-                    </h3>
-                    
+            <div class="col">
+                <div class="card hvr-shadow ">
+                    <div class="card-body ">
+                        <a href="https://fwd82-github-io.pages.dev/cf/" class="stretched-link"> <h5 class="card-title">Cloudflare Storage</h5></a>
+                        <p class="card-text">icon.description</p>
+                        <div class="icon-container">
+                            <img src="" />
+                        </div>
+                    </div>
                 </div>
-
-        <form class="mt-3">
-            <div class="form-group">
-                <label for="accountId"><span class="text-danger">*</span>  Account ID 
-                    <svg data-toggle="tooltip" data-placement="top" title="Put your Account ID here, you can find it in your Cloudflare account main page" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
-                    </svg>
-                </label>
-                <input type="text" class="form-control" id="accountId" name="accountId" placeholder="Enter Account ID" required="true">
             </div>
-            <div class="form-group">
-                <label for="accountEmail"><span class="text-danger">*</span> Account Email 
-                    <svg data-toggle="tooltip" data-placement="top" title="Email address assosiated with your account on Cloudflare" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
-                    </svg>
-                </label>
-                <input type="email" class="form-control" id="accountEmail" placeholder="Enter Account Email" name="accountEmail"   required="true">
+            <!-- next -->
+            <div class="col">
+                <div class="card hvr-shadow">
+                    <div class="card-body">
+                        <a href="https://fwd82-github-io.pages.dev/icons" class="stretched-link"><h5 class="card-title">Icon Gallery</h5></a>
+                        <p class="card-text">icon.description</p>
+                        <div class="icon-container">
+                            <img src="" />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="apiKey"><span class="text-danger">*</span> API Key 
-                    <svg data-toggle="tooltip" data-placement="top" title="Your Global API Key (X-Auth-Key) , " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
-                    </svg>
-                </label>
-                <input type="text" class="form-control" id="apiKey" placeholder="Enter API Key" name="apiKey"  required="true">
-            </div>
-            <button type="button" class="btn btn-primary text-center " id="fetchSize">FETCH INFO </button> &nbsp;&nbsp;&nbsp;
-
-
-            <div class="spinner-border text-primary" role="status" id="spinner"></div>
-                <!-- <span class="sr-only">Loading...</span> -->
-            
-
-
-            <div>
-                <p class="text-danger" id="errormessage"></p>
-            </div>
-
-        </form>
-        <hr />
-        <table class="table table-bordered table-hover  mt-3">
-            <tbody>
-                <tr>
-                    <th>Total Number of Videos</th>
-                    <td colspan="3" id="totalSize4">0 Qty</td>
-                </tr>
-                <tr>
-                    <th>Total Size</th>
-                    <td id="totalSize1">0 Bytes</td>
-                    <td id="totalSize2">0 MBs</td>
-                    <td id="totalSize3">0 GBs</td>
-                </tr>
-                <tr>
-                    <th>Total Duration</th>
-                    <td id="totalDuration1">0 Seconds</td>
-                    <td id="totalDuration2">0 Minutes</td>
-                    <td id="totalDuration3">0 Hours</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <hr />
-
-
-        <ol>
-            <p><strong class="mt-5">Notes!</strong></p>
-            <li><p class="font-weight-light"> This tool will only work upto <strong>1000</strong> videos. </p></li>
-            <li><p class="font-weight-light">Cloudflare transcode videos to <strong>H.264</strong> and the following <strong>Resolutions</strong> and <strong>Bitrates</strong> and may be more.  </p></li> 
-                <ul>
-                    <li>1080p	8 Mbps</li>
-                    <li>720p	4.8 Mbps</li>
-                    <li>480p	2.4 Mbps</li>
-                    <li>360p	1 Mbps</li>
-                </ul> 
-        </ol>
-
-        
-        <p class="font-weight-light text-center"><strong>FAWAD IQBAL f84267592</strong></p>
+        </div>
     </div>
 
-    <!-- Include jQuery and Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    
-    
-
-
-    <script>
-        $(document).ready(function(){
-            // $(function () {
-            //     $('[data-toggle="tooltip"]').tooltip()
-            // })
-            // $("#processButton").click(function(){
-            //     // Placeholder for processing logic
-            //     alert("Processing data...");
-            // });
-        });
-    </script>
-
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
-
-    document.getElementById('fetchSize').addEventListener('click',  checkforempty);
-
-    //console.log("addEventListener called 1");
-
-    let spinner = document.getElementById("spinner");
-    spinner.style.visibility = 'hidden'; //'hidden'
-
-    //spinner.style.visibility = 'visible'; //'hidden'
-
-
-    function checkforempty(){
-
-
-
-        // console.log("checkforempty");
-        const accountId = document.getElementById("accountId").value;
-        const accountEmail = document.getElementById("accountEmail").value;
-        const apiKey = document.getElementById("apiKey").value;
-
-        if (accountId === "" || accountEmail === "" || apiKey === ""){
-            // console.log("inside if 3 empty");
-            document.getElementById("errormessage").textContent = '* Please fill all fields!';
-        }else{
-            // console.log("inside else 3 - not-empty");
-            document.getElementById("errormessage").textContent = '';
-            fetchTotalSize();
-        }
-    }
-        
-    async function fetchTotalSize() {
-        spinner.style.visibility = 'visible'; //'hidden'
-        // console.log("fetchTotalSize called 4");
-         accountId = document.getElementById("accountId").value;
-         accountEmail = document.getElementById("accountEmail").value;
-         apiKey = document.getElementById("apiKey").value;       
-
-        document.getElementById('fetchSize').textContent = "Wait...";
-        document.getElementById('fetchSize').classList.remove('btn-primary'); // Replace 'btn-primary' with the current color class
-
-        // console.log(accountEmail);
-
-        const url = `https://api.cloudflare.com/client/v4/accounts/${accountId}/stream`;
-
-        try {
-            const response = await fetch(url, {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'X-Auth-Email': accountEmail,
-                    'X-Auth-Key': apiKey
-                }
-            });
-
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-                console.log(response.status);
-            }
-
-            const data = await response.json();
-            let totalSize = 0;
-            let totalDuration = 0;
-
-            if (data.success && data.result) {
-                for (let video of data.result) {
-                    totalSize += video.size || 0;
-                    totalDuration += video.duration || 0;
-
-                }
-
-                document.getElementById('fetchSize').textContent = "GET INFO";
-                document.getElementById('fetchSize').classList.add('btn-primary'); 
-
-                document.getElementById('totalSize1').textContent = totalSize + " Bytes";
-                document.getElementById('totalSize2').textContent = (totalSize / 1024 / 1024).toFixed(2) + " MBs";
-                document.getElementById('totalSize3').textContent = (totalSize / 1024 / 1024 / 1024).toFixed(2) + " GBs";
-                
-                document.getElementById('totalSize4').textContent = data.result.length + " Qty";
-
-                document.getElementById('totalDuration1').textContent = totalDuration + " Sec";
-                document.getElementById('totalDuration2').textContent = totalDuration/60 + " Min";
-                document.getElementById('totalDuration3').textContent = totalDuration/(60*60) + " Hrs";
-
-                spinner.style.visibility = 'hidden'; //'hidden'
-            }
-            
-        } catch (error) {
-            document.getElementById('errormessage').textContent = "Wrong Credentials | There was an error fetching the video info: \n" + error;
-            console.error("There was an error fetching the video sizes: ", error);
-            spinner.style.visibility = 'hidden'; //'hidden'
-            document.getElementById('fetchSize').classList.add('btn-primary'); 
-            document.getElementById('fetchSize').textContent = "GET INFO";
-
-
-        }
-
-        // This code is written by FAWAD IQBAL f84267582 (fwd82@live.com)
-
-    // }
-    }
-</script>
-
-
-    </div>
-    </div>
-
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
