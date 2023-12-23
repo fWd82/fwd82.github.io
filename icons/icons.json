@@ -1,0 +1,41 @@
+{
+    "icons": [
+      {
+        "location": "icons-svg/5G NaaS.svg",
+        "title": "Icon 1",
+        "description": "This is icon 1"
+      },
+      {
+        "location": "icons-svg/AI Container.svg",
+        "title": "Icon 2",
+        "description": "This is icon hg"
+      }
+      ,
+      {
+        "location": "icons-svg/AI Container.svg",
+        "title": "Icon 3",
+        "description": "This is icon pom"
+      },
+      {
+        "location": "icons-svg/AI Container.svg",
+        "title": "Icon 4",
+        "description": "This is icon 2gtbt"
+      },
+      {
+        "location": "icons-svg/AI Container.svg",
+        "title": "Icon 5",
+        "description": "This is icon yntyn"
+      },
+      {
+        "location": "icons-svg/AI Container.svg",
+        "title": "Icon 6",
+        "description": "This is icon hynyh"
+      },
+      {
+        "location": "icons-svg/AI Container.svg",
+        "title": "Icon 7",
+        "description": "This is icon 7"
+      }
+    ]
+  }
+  
